@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewBag.Title = "Home Page";
+}
+
+<div id="main-page" ng-controller="mainController">
+    <div ng-include="'../../src/app/partials/navbar.tpl.html'"></div>
+    <div ng-include="'../../src/app/partials/imei-entry.tpl.html'" full-height></div>
+    <div id="instructions-page" ng-include="'../../src/app/partials/instructions.tpl.html'" full-height></div>
+    <div id="compatibility-list-page" ng-include="'../../src/app/partials/compatibility-list.tpl.html'" full-height></div>
+    <div id="about-page" ng-include="'../../src/app/partials/about.tpl.html'" full-height></div>
+</div>
+

@@ -1,0 +1,10 @@
+﻿#about-page {    
+    padding-top: 150px;
+    background-color: $default-grey-background;
+    color: $default-text-color-inverse;
+}
+
+.about-bg {
+     @include box-shadow(0, 0, 20px, black);   
+}
+

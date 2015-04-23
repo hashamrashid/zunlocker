@@ -1,0 +1,35 @@
+﻿<!DOCTYPE html>
+<html ng-app="unlockerApp">
+<head>
+    <base href="/"/>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>z-Unlocker - Unlock your ZTE mobile phone</title>
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+    <link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+    <!--[if lt IE 9]><script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    @Styles.Render("~/Content/css")
+    @Scripts.Render("~/bundles/modernizr")
+    <link rel="shortcut icon" href="~/favicon.ico" type="image/x-icon"/>
+
+</head>
+<body>
+
+    <div class="container-fluid main-background">
+        @RenderBody()
+
+    </div>
+
+    @Scripts.Render("~/bundles/jquery")
+    @Scripts.Render("~/bundles/bootstrap")
+    @Scripts.Render("~/bundles/angular")
+    @Scripts.Render("~/bundles/unlockerSite")
+    @Scripts.Render("~/bundles/zteSite")
+    @RenderSection("scripts", required: false)
+
+
+
+   
+</body>
+</html>

@@ -1,0 +1,17 @@
+﻿
+#main_navigation_menu {
+    list-style: none;
+}
+
+.site-logo-text {
+    font: $logo-font;
+}
+
+.site-nav a {
+    color: $default-text-color;
+    @include text-transition(.4s);
+
+    &:hover {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,34 @@
+﻿.unlock-heading {
+	    display:table-cell;
+	    vertical-align:middle; 
+	    padding-top:10%;      
+	}
+	
+	.jumbo-text-with-shadow{
+	     font: $jumbo-font-size $main-font ; 
+	     text-shadow:3px 3px 3px black;     
+	}
+	
+	.jumbo-text{
+	     margin-top:-20px;
+	     font: $jumbo-font-size $main-font ;
+         
+         @media #{$tablet-small}{
+
+         }      
+	}
+
+     .heading-light{
+	    font-size:40px;
+	    color:white;
+	     
+	}
+	
+	 .heading-light-smaller{
+	      font-size:1em;
+	      color:white;
+	      margin-bottom:1em;
+	       margin-top:.5em;
+	      opacity:.75;
+	 }
+	

@@ -1,0 +1,1 @@
+It shows only 6 tests, is that ok? or should i have separate describes for jasmine

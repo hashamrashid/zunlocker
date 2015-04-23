@@ -1,0 +1,10 @@
+﻿body {
+    font: $default-font-size $main-font;
+    color: $default-font-color;
+}
+
+.main-background {
+    background: $top-bg-image;
+    overflow: hidden;
+    padding: 0;
+}

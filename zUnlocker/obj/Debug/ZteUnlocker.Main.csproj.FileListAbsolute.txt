@@ -1,0 +1,15 @@
+C:\MyProjects\AngularZTE\ZteUnlocker.Main\obj\Debug\ZteUnlocker.Main.csprojResolveAssemblyReference.cache
+C:\MyProjects\AngularZTE\ZteUnlocker.Main\bin\ZteUnlocker.Main.dll.config
+C:\MyProjects\AngularZTE\ZteUnlocker.Main\bin\ZteUnlocker.Main.dll
+C:\MyProjects\AngularZTE\ZteUnlocker.Main\bin\ZteUnlocker.Main.pdb
+C:\MyProjects\AngularZTE\ZteUnlocker.Main\bin\System.Web.Mvc.dll
+C:\MyProjects\AngularZTE\ZteUnlocker.Main\bin\System.Web.Mvc.xml
+C:\MyProjects\AngularZTE\ZteUnlocker.Main\obj\Debug\ZteUnlocker.Main.dll
+C:\MyProjects\AngularZTE\ZteUnlocker.Main\obj\Debug\ZteUnlocker.Main.pdb
+C:\MyProjects\zUnlocker\ZteUnlocker.Main\bin\ZteUnlocker.Main.dll.config
+C:\MyProjects\zUnlocker\ZteUnlocker.Main\bin\ZteUnlocker.Main.dll
+C:\MyProjects\zUnlocker\ZteUnlocker.Main\bin\ZteUnlocker.Main.pdb
+C:\MyProjects\zUnlocker\ZteUnlocker.Main\bin\System.Web.Mvc.dll
+C:\MyProjects\zUnlocker\ZteUnlocker.Main\bin\System.Web.Mvc.xml
+C:\MyProjects\zUnlocker\ZteUnlocker.Main\obj\Debug\ZteUnlocker.Main.dll
+C:\MyProjects\zUnlocker\ZteUnlocker.Main\obj\Debug\ZteUnlocker.Main.pdb

@@ -1,0 +1,33 @@
+﻿*--------------------------------------------------------*
+UNLOCK ALGORITHM EXPLAINED
+*--------------------------------------------------------*
+
+
+Terms Explained:
+
+IMEI:
+A 15 digits number which uniquely identifies a phone. Usually found under the battery
+
+NCK Code:
+The unlock code which can be used to unlock a network-locked phone so that it can be
+used on any network. The NCK is calculated using the IMEI
+
+Unlock Key:
+This is a number which is , well, magical . It is used in step 4 of the algorithm,
+as explained below
+
+How the Algorithm Works:
+
+Given a 15 digits, valid IMEI number
+
+1 - Calculate the sum of the last 13 IMEI digits
+
+2 - For each digit in the IMEI , multiply it with the sum from step 1 and compute
+the remainder after dividing it by 10. This is called the 'First Multiplier'
+
+3 - For each digit in the IMEI, multiply it by 8 and compute the remainder after
+dividing it by 10. This is then reversed and is called the 'Second Multiplier'
+
+4 - For each digit in the imei, get the corresponding unlock code digit from the
+    unlock key, add first & second multipliers to it and then concatenate all these
+    to get one long unlock code. This is the unlock code

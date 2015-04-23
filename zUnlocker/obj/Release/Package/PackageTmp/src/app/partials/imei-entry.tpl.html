@@ -1,0 +1,54 @@
+﻿<div class="container">
+    <div class="row">
+        <div class="col-xs-5 col-xs-offset-1 col-xs-offset-0 col-sm-offset-0 col-sm-4 main-phone-img">
+
+        </div>
+
+        <div class="col-xs-5 col-sm-offset-0 col-sm-8 main-heading">
+            <div class="unlock-heading text-center">
+                <span class="jumbo-text-with-shadow">Unlock Your ZTE phone</span>
+            </div>
+        </div>
+
+        <div class="col-xs-6 col-sm-8" id="imeiformContainer">
+            <form class="form-horizontal" id="imeiForm">
+                <div class="input-group">
+                    <label class="input-group-addon text-center">
+                        <i class="fa fa-calculator"></i> Enter IMEI
+                    </label>
+                    <input class="form-control" name="imeiNumber" id="imeiNumber" ng-model="imeiModel.imeiNumber"/>
+                </div>
+
+                <div class="imei-info text-center">
+                    To get the IMEI number , turn the phone on and press *#06#.
+                    <br/> IMEI number can also be found under the phone battery.
+                </div>
+                <br/>
+                
+                <button type="submit" class="btn btn-primary btn-lg center-block" ng-click="calculateCode()">Submit</button>
+            </form>
+            <hr/>
+
+            <div class="panel panel-info animate-show" id="unlock-result" ng-show="imeiModel.unlockCode">
+                <div class="panel-heading text-center">
+                    <i class="fa fa-info-circle"></i> Your Unlock Code:
+                </div>
+                <div class="panel-body text-center">
+                    <span class="text-success" id="unlock-code" ng-bind="imeiModel.unlockCode"></span>
+                    <a class="help-block instructions-link" href='#instructions-page' du-smooth-scroll>
+                        <i class="fa fa-hand-o-right "></i> How do I enter the code?
+                    </a>
+                </div>
+            </div>
+
+            <div class="panel panel-danger animate-show" ng-show="imeiModel.hasError">
+                <div class="panel-heading text-center">
+                    <i class="fa fa-info-circle"></i> Invalid IMEI:
+                </div>
+                <div class="panel-body text-center">
+                    <span class="text-danger">Please enter a valid imei number</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

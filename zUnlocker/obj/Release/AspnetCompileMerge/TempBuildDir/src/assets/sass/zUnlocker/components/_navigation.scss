@@ -1,0 +1,17 @@
+﻿ #main_navigation_menu{
+	       
+	        list-style:none;
+	    }
+
+ .site-logo-text{
+    font:$logo-font;
+}
+
+.site-nav a { 
+    color: $text-color ;   
+    -webkit-transition: font-size .5s; /* For Safari 3.1 to 6.0 */
+    transition: font-size .5s;
+    &:hover{
+        font-size:16px;        
+    }
+}

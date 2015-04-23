@@ -1,0 +1,22 @@
+﻿#compatibility-list-page {
+    padding-top: 100px;
+    padding-bottom: 150px;
+    color: $default-text-color;
+}
+
+.price-table {
+    border: solid 1px white;
+    color: $default-text-color-inverse;
+    background-color: $default-background-color;
+}
+
+.manufacturer-heading {
+    background-color: $site-logo-text-color;
+    font-size: large;
+    width: 100%;
+    display: inline-block;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    line-height: 50px;
+}
